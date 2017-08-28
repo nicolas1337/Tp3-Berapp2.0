@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eetsn4.nicolasarroyo.beraapp20.EstablecimientosPFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="368dp"
+            android:layout_height="495dp"
+            tools:layout_editor_absoluteY="8dp"
+            tools:layout_editor_absoluteX="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="325dp"
+                    app:srcCompat="@drawable/plaza"
+                    tools:layout_editor_absoluteX="27dp"
+                    tools:layout_editor_absoluteY="70dp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="325dp"
+                    app:srcCompat="@drawable/belgrano"
+                    tools:layout_editor_absoluteX="27dp"
+                    tools:layout_editor_absoluteY="376dp" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="325dp"
+                    app:srcCompat="@drawable/ad"
+                    tools:layout_editor_absoluteX="27dp"
+                    tools:layout_editor_absoluteY="654dp" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="325dp"
+                    app:srcCompat="@drawable/muni"
+                    tools:layout_editor_absoluteX="27dp"
+                    tools:layout_editor_absoluteY="781dp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
